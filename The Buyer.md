@@ -1,327 +1,157 @@
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
-    <defs>
-      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#1a0033;stop-opacity:1" />
-        <stop offset="50%" style="stop-color:#3d0066;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#1a0040;stop-opacity:1" />
-      </linearGradient>
-      <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#ff69b4;stop-opacity:0" />
-        <stop offset="50%" style="stop-color:#ff69b4;stop-opacity:0.15" />
-        <stop offset="100%" style="stop-color:#ff69b4;stop-opacity:0" />
-      </linearGradient>
-    </defs>
-    <rect width="1200" height="300" fill="url(#bg)" rx="12"/>
-    <rect width="1200" height="300" fill="url(#glow)" rx="12"/>
-    <line x1="0" y1="60" x2="1200" y2="60" stroke="#ff69b4" stroke-opacity="0.08" stroke-width="1"/>
-    <line x1="0" y1="120" x2="1200" y2="120" stroke="#ff69b4" stroke-opacity="0.08" stroke-width="1"/>
-    <line x1="0" y1="180" x2="1200" y2="180" stroke="#ff69b4" stroke-opacity="0.08" stroke-width="1"/>
-    <line x1="0" y1="240" x2="1200" y2="240" stroke="#ff69b4" stroke-opacity="0.08" stroke-width="1"/>
-    <line x1="200" y1="0" x2="200" y2="300" stroke="#b44fff" stroke-opacity="0.08" stroke-width="1"/>
-    <line x1="400" y1="0" x2="400" y2="300" stroke="#b44fff" stroke-opacity="0.08" stroke-width="1"/>
-    <line x1="600" y1="0" x2="600" y2="300" stroke="#b44fff" stroke-opacity="0.08" stroke-width="1"/>
-    <line x1="800" y1="0" x2="800" y2="300" stroke="#b44fff" stroke-opacity="0.08" stroke-width="1"/>
-    <line x1="1000" y1="0" x2="1000" y2="300" stroke="#b44fff" stroke-opacity="0.08" stroke-width="1"/>
-    <circle cx="80" cy="40" r="1.5" fill="#ff69b4" opacity="0.7"/>
-    <circle cx="200" cy="25" r="1" fill="#da70d6" opacity="0.6"/>
-    <circle cx="350" cy="55" r="2" fill="#ff69b4" opacity="0.5"/>
-    <circle cx="520" cy="20" r="1.5" fill="#b44fff" opacity="0.7"/>
-    <circle cx="700" cy="45" r="1" fill="#ff69b4" opacity="0.6"/>
-    <circle cx="900" cy="30" r="2" fill="#da70d6" opacity="0.5"/>
-    <circle cx="1050" cy="50" r="1.5" fill="#ff69b4" opacity="0.7"/>
-    <circle cx="1150" cy="22" r="1" fill="#b44fff" opacity="0.6"/>
-    <circle cx="140" cy="260" r="1.5" fill="#da70d6" opacity="0.5"/>
-    <circle cx="460" cy="275" r="1" fill="#ff69b4" opacity="0.6"/>
-    <circle cx="760" cy="265" r="2" fill="#b44fff" opacity="0.5"/>
-    <circle cx="980" cy="280" r="1.5" fill="#ff69b4" opacity="0.6"/>
-    <rect x="0" y="0" width="1200" height="3" fill="#ff69b4" opacity="0.6" rx="2"/>
-    <rect x="0" y="297" width="1200" height="3" fill="#b44fff" opacity="0.6" rx="2"/>
-    <rect x="60" y="60" width="3" height="180" fill="#ff69b4" opacity="0.4" rx="2"/>
-    <rect x="1137" y="60" width="3" height="180" fill="#b44fff" opacity="0.4" rx="2"/>
-    <text x="600" y="130" font-family="'Courier New', monospace" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.95">✦ THREAT HUNT REPORT ✦</text>
-    <text x="600" y="178" font-family="'Courier New', monospace" font-size="22" fill="#ff69b4" text-anchor="middle" opacity="0.9">The Buyer — Akira Ransomware Incident Response</text>
-    <text x="600" y="230" font-family="'Courier New', monospace" font-size="14" fill="#da70d6" text-anchor="middle" opacity="0.75">SancLogic Cyber Range  ·  Advanced  ·  40/40 ✓  ·  Destiny Furlong</text>
-    <text x="80" y="100" font-family="serif" font-size="20" fill="#ff69b4" opacity="0.3">✦</text>
-    <text x="1100" y="100" font-family="serif" font-size="20" fill="#b44fff" opacity="0.3">✦</text>
-    <text x="80" y="220" font-family="serif" font-size="20" fill="#b44fff" opacity="0.3">✦</text>
-    <text x="1100" y="220" font-family="serif" font-size="20" fill="#ff69b4" opacity="0.3">✦</text>
-  </svg>
+  <img
+    src="https://github.com/user-attachments/assets/337bb215-8833-4653-b570-93c443bd9c11"
+    width="1200"
+    alt="Threat Hunt Cover Image"
+  />
 </p>
 
-# 🔍 The Buyer — Akira Ransomware Incident Response
+# 🛡️ Threat Hunt Report — Akira Ransomware: Ashford Sterling Recruitment
 
-**SancLogic Cyber Range &nbsp;✦&nbsp; Advanced Difficulty &nbsp;✦&nbsp; 40/40 Questions Solved**
-
-> *"A ransomware affiliate returned to Ashford Sterling Recruitment using access pre-staged during a prior compromise. The threat actor deployed Akira ransomware across two hosts."*
+**Analyst:** Destiny Furlong
+**Platform:** Microsoft Sentinel + Azure Log Analytics
+**Incident Date:** January 27, 2026
+**Investigation Date:** March 2026
+**Severity:** Critical
 
 ---
 
-## 💜 Overview
+## 📌 Executive Summary
 
-This repository documents a complete incident response investigation into an **Akira ransomware** attack on a fictional recruitment firm, **Ashford Sterling Recruitment**. This was completed as part of the **SancLogic Cyber Range** two-part series (*The Broker* → *The Buyer*).
+On January 27, 2026, a ransomware affiliate deployed Akira ransomware across the network of Ashford Sterling Recruitment. The attacker used pre-staged access from a prior intrusion, requiring no new initial compromise. Two hosts were confirmed encrypted: `as-pc2` and `as-srv`.
 
-| Detail | Value |
-|--------|-------|
-| Analyst | Destiny Furlong |
-| Difficulty | Advanced |
-| Platform | Microsoft Sentinel + Azure Log Analytics |
+The attacker disabled Windows Defender, stole credentials from LSASS, moved laterally to a domain server, exfiltrated data, and encrypted files — all within approximately three hours. The ransomware binary was deleted after execution to slow forensic recovery.
+
+This investigation was completed 47 days after the incident. Microsoft Defender for Endpoint logs had already expired. All findings were derived from Azure Log Analytics using KQL against retained MDE telemetry.
+
+---
+
+## 🧭 Scope & Environment
+
+| Field | Detail |
+|-------|--------|
+| Organization | Ashford Sterling Recruitment |
+| SIEM | Microsoft Sentinel |
+| Query Platform | Azure Log Analytics (LAW-Cyber-Range workspace) |
+| Data Sources | DeviceProcessEvents, DeviceFileEvents, DeviceNetworkEvents, DeviceRegistryEvents, DeviceEvents, DeviceLogonEvents |
 | Incident Date | January 27, 2026 |
-| Investigation Date | March 2026 |
-| Questions Solved | 40/40 across 12 sections |
+| Hosts Compromised | as-pc2, as-srv |
+| Compromised Account | david.mitchell |
+| Ransomware Family | Akira |
 
 ---
 
-## 🧠 The Core Challenge
+## 📚 Table of Contents
 
-The incident happened **47 days before** the investigation. Microsoft Defender for Endpoint only keeps Advanced Hunting logs for 30 days. By the time I started, MDE had nothing. **Azure Log Analytics was the only platform that still had the data** — and I did not know that until I was already mid-investigation.
-
-Every query decision after that point was shaped by that constraint.
-
----
-
-## 🧬 MITRE ATT&CK Coverage
-
-| Technique | MITRE ID | Phase |
-|-----------|----------|-------|
-| External Remote Services | T1133 | Initial Access |
-| Valid Accounts | T1078 | Persistence |
-| Impair Defenses | T1562 | Defense Evasion |
-| Modify Registry | T1112 | Defense Evasion |
-| Masquerading | T1036 | Defense Evasion |
-| Indicator Removal | T1070 | Defense Evasion |
-| OS Credential Dumping | T1003 | Credential Access |
-| Network Share Discovery | T1135 | Discovery |
-| Remote Services | T1021 | Lateral Movement |
-| Ingress Tool Transfer | T1105 | Command & Control |
-| Remote Access Tools | T1219 | Command & Control |
-| Archive Collected Data | T1560 | Collection |
-| Exfiltration Over C2 Channel | T1041 | Exfiltration |
-| Data Encrypted for Impact | T1486 | Impact |
-| Inhibit System Recovery | T1490 | Impact |
+- [🧬 MITRE ATT&CK Summary](#-mitre-attck-summary)
+- [⚔️ Attack Chain Overview](#%EF%B8%8F-attack-chain-overview)
+- [🔍 Phase Analysis](#-phase-analysis)
+  - [Phase 1 — Re-Entry via Pre-Staged Backdoor](#phase-1--re-entry-via-pre-staged-backdoor)
+  - [Phase 2 — Tooling and C2 Establishment](#phase-2--tooling-and-c2-establishment)
+  - [Phase 3 — Defense Evasion](#phase-3--defense-evasion)
+  - [Phase 4 — Credential Theft](#phase-4--credential-theft)
+  - [Phase 5 — Lateral Movement and Exfiltration](#phase-5--lateral-movement-and-exfiltration)
+  - [Phase 6 — Ransomware Deployment and Cleanup](#phase-6--ransomware-deployment-and-cleanup)
+- [🌐 Indicators of Compromise](#-indicators-of-compromise)
+- [🚨 Detection Gaps & Recommendations](#-detection-gaps--recommendations)
+- [🧾 Final Assessment](#-final-assessment)
+- [📎 Analyst Notes](#-analyst-notes)
 
 ---
 
-## ⚔️ Attack Chain
+## 🧬 MITRE ATT&CK Summary
 
-The attacker never had to break in again. Access was already sitting there from a prior compromise. The operation ran for about three hours and moved through six phases.
+| Technique | MITRE ID | Phase | Priority |
+|-----------|----------|-------|----------|
+| External Remote Services | T1133 | Initial Access | High |
+| Valid Accounts | T1078 | Persistence | High |
+| Impair Defenses | T1562 | Defense Evasion | Critical |
+| Modify Registry | T1112 | Defense Evasion | Critical |
+| Masquerading | T1036 | Defense Evasion | Medium |
+| Indicator Removal | T1070 | Defense Evasion | High |
+| OS Credential Dumping | T1003 | Credential Access | Critical |
+| Network Share Discovery | T1135 | Discovery | Medium |
+| Remote Services | T1021 | Lateral Movement | High |
+| Ingress Tool Transfer | T1105 | Command & Control | High |
+| Remote Access Tools | T1219 | Command & Control | High |
+| Archive Collected Data | T1560 | Collection | High |
+| Exfiltration Over C2 Channel | T1041 | Exfiltration | Critical |
+| Data Encrypted for Impact | T1486 | Impact | Critical |
+| Inhibit System Recovery | T1490 | Impact | Critical |
+
+---
+
+## ⚔️ Attack Chain Overview
 
 ```
 Phase 1 — Re-Entry
-  └─ AnyDesk pre-staged in C:\Users\Public\ (no new exploit needed)
-  └─ Attacker connects from 88.97.164.155 via relay-0b975d23.net.anydesk.com
+  └─ Pre-staged AnyDesk backdoor activated from C:\Users\Public\
+  └─ Attacker connects from 88.97.164.155 via AnyDesk relay
 
-Phase 2 — Tooling
-  └─ scan.exe (AdvancedIPScanner) pulled via bitsadmin from sync.cloud-endpoint.net
+Phase 2 — Tooling & C2
+  └─ scan.exe (AdvancedIPScanner) downloaded via bitsadmin
   └─ wsync.exe C2 beacon dropped to C:\ProgramData\
-  └─ Beacon v1 fails → swapped with beacon v2 (different SHA256, same filename)
+  └─ Beacon v1 fails — replaced with beacon v2 (different hash, same filename)
 
 Phase 3 — Defense Evasion
-  └─ kill.bat downloaded and executed
-  └─ DisableAntiSpyware set via reg.exe [21:03:42 UTC] — Defender is gone
-  └─ Shadow copies deleted via vssadmin — no local recovery possible
+  └─ kill.bat downloaded and executed to impair Defender
+  └─ DisableAntiSpyware set via reg.exe [21:03:42 UTC]
+  └─ Shadow copies deleted via vssadmin
 
 Phase 4 — Credential Theft
-  └─ tasklist | findstr lsass — attacker confirms LSASS is running
-  └─ \Device\NamedPipe\lsass accessed [21:42 UTC] — credentials stolen
+  └─ tasklist | findstr lsass confirms LSASS is running
+  └─ \Device\NamedPipe\lsass accessed [21:42 UTC]
 
-Phase 5 — Lateral Movement + Exfiltration
-  └─ as.srv.administrator authenticates to AS-SRV using stolen creds
-  └─ SMB enumeration of 10.1.0.154 and 10.1.0.183
-  └─ st.exe creates exfil_data.zip in C:\Users\Public\
+Phase 5 — Lateral Movement & Exfiltration
+  └─ as.srv.administrator authenticates to AS-SRV using stolen credentials
+  └─ SMB enumeration of internal targets
+  └─ st.exe archives data into exfil_data.zip for staging
 
-Phase 6 — Encryption + Cleanup
+Phase 6 — Encryption & Cleanup
   └─ updater.exe staged on AS-SRV via powershell.exe
-  └─ akira_readme.txt dropped [22:18:33 UTC] — encryption starts
-  └─ clean.bat deletes updater.exe [~22:20 UTC] — evidence removed
+  └─ akira_readme.txt dropped [22:18:33 UTC] — encryption begins
+  └─ clean.bat deletes updater.exe to hinder forensics
 ```
 
 ---
 
-## 🗂️ Investigation Sections
-
-| # | Section | Difficulty | Questions |
-|---|---------|------------|-----------|
-| 1 | Ransom Note Analysis | Moderate | Q1–Q4 |
-| 2 | Infrastructure | Moderate | Q5–Q8 |
-| 3 | Defense Evasion | Hard | Q9–Q12 |
-| 4 | Credential Access | Advanced | Q13–Q14 |
-| 5 | Initial Access | Hard | Q15–Q18 |
-| 6 | Command & Control | Hard | Q19–Q22 |
-| 7 | Reconnaissance | Moderate | Q23–Q26 |
-| 8 | Lateral Movement | Hard | Q27 |
-| 9 | Tool Transfer | Moderate | Q28–Q29 |
-| 10 | Exfiltration | Hard | Q30–Q32 |
-| 11 | Ransomware Deployment | Advanced | Q33–Q38 |
-| 12 | Anti-Forensics & Scope | Hard | Q39–Q40 |
+## 🔍 Phase Analysis
 
 ---
 
-## 🏁 All 40 Answers
+### Phase 1 — Re-Entry via Pre-Staged Backdoor
 
-<details>
-<summary><strong>Section 1 — Ransom Note Analysis</strong></summary>
+The attacker did not need to re-compromise the environment. AnyDesk had been pre-staged in `C:\Users\Public\` during a prior intrusion. It was activated at 7:15 PM and used to connect from external IP `88.97.164.155` at 7:21 PM through the relay domain `relay-0b975d23.net.anydesk.com`.
 
-| Q | Question | Answer |
-|---|----------|--------|
-| Q1 | What ransomware group is responsible? | `Akira` |
-| Q2 | What is the TOR negotiation address? | `akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad.onion` |
-| Q3 | What is the company unique ID? | `813R-QWJM-XKIJ` |
-| Q4 | What file extension is added to encrypted files? | `.akira` |
+The compromised account was `david.mitchell` on `as-pc2`. Initial access for this intrusion traces back to Guacamole RDP sessions originating from `10.0.8.5` and `10.0.8.8` earlier in the day.
 
-</details>
-
-<details>
-<summary><strong>Section 2 — Infrastructure</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q5 | What domain hosted the payloads? | `sync.cloud-endpoint.net` |
-| Q6 | What domain staged the ransomware? | `cdn.cloud-endpoint.net` |
-| Q7 | What are the two C2 IP addresses? | `104.21.30.237, 172.67.174.46` |
-| Q8 | What is the remote tool relay domain? | `relay-0b975d23.net.anydesk.com` |
-
-</details>
-
-<details>
-<summary><strong>Section 3 — Defense Evasion</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q9 | What script disabled security? | `kill.bat` |
-| Q10 | SHA256 of the evasion script? | `0e7da57d92eaa6bda9d0bbc24b5f0827250aa42f295fd056ded50c6e3c3fb96c` |
-| Q11 | What registry value disabled Windows Defender? | `DisableAntiSpyware` |
-| Q12 | What time was the registry modified? (UTC) | `21:03:42` |
-
-</details>
-
-<details>
-<summary><strong>Section 4 — Credential Access</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q13 | What command enumerated processes? | `tasklist \| findstr lsass` |
-| Q14 | What named pipe was accessed? | `\Device\NamedPipe\lsass` |
-
-</details>
-
-<details>
-<summary><strong>Section 5 — Initial Access</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q15 | What remote access tool was pre-staged? | `AnyDesk` |
-| Q16 | What directory was it executed from? | `C:\Users\Public\` |
-| Q17 | What is the attacker's external IP? | `88.97.164.155` |
-| Q18 | What user was compromised on AS-PC2? | `david.mitchell` |
-
-</details>
-
-<details>
-<summary><strong>Section 6 — Command & Control</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q19 | What new C2 beacon was deployed? | `wsync.exe` |
-| Q20 | What directory was it deployed to? | `C:\ProgramData\` |
-| Q21 | SHA256 of the original beacon? | `66b876c52946f4aed47dd696d790972ff265b6f4451dab54245bc4ef1206d90b` |
-| Q22 | SHA256 of the replacement beacon? | `0072ca0d0adc9a1b2e1625db4409f57fc32b5a09c414786bf08c4d8e6a073654` |
-
-</details>
-
-<details>
-<summary><strong>Section 7 — Reconnaissance</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q23 | What scanner tool was used? | `scan.exe` |
-| Q24 | SHA256 of the scanner? | `26d5748ffe6bd95e3fee6ce184d388a1a681006dc23a0f08d53c083c593c193b` |
-| Q25 | What arguments were passed to the scanner? | `/portable "C:/Users/david.mitchell/Downloads/" /lng en_us` |
-| Q26 | What two internal IPs were enumerated? | `10.1.0.154, 10.1.0.183` |
-
-</details>
-
-<details>
-<summary><strong>Section 8 — Lateral Movement</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q27 | What account authenticated to AS-SRV? | `as.srv.administrator` |
-
-</details>
-
-<details>
-<summary><strong>Section 9 — Tool Transfer</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q28 | What LOLBIN was first used to download tools? | `bitsadmin.exe` |
-| Q29 | What PowerShell cmdlet was used as fallback? | `Invoke-WebRequest` |
-
-</details>
-
-<details>
-<summary><strong>Section 10 — Exfiltration</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q30 | What staging tool compressed the data? | `st.exe` |
-| Q31 | SHA256 of the staging tool? | `512a1f4ed9f512572608c729a2b89f44ea66a40433073aedcd914bd2d33b7015` |
-| Q32 | What archive was created? | `exfil_data.zip` |
-
-</details>
-
-<details>
-<summary><strong>Section 11 — Ransomware Deployment</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q33 | What is the ransomware filename? | `updater.exe` |
-| Q34 | SHA256 of the ransomware? | `e609d070ee9f76934d73353be4ef7ff34b3ecc3a2d1e5d052140ed4cb9e4752b` |
-| Q35 | What process staged the ransomware on AS-SRV? | `powershell.exe` |
-| Q36 | What command deleted backup copies? | `vssadmin delete shadows /all /quiet` |
-| Q37 | What process dropped the ransom note? | `updater.exe` |
-| Q38 | What time was the ransom note dropped? (UTC) | `22:18:33` |
-
-</details>
-
-<details>
-<summary><strong>Section 12 — Anti-Forensics & Scope</strong></summary>
-
-| Q | Question | Answer |
-|---|----------|--------|
-| Q39 | What script deleted the ransomware? | `clean.bat` |
-| Q40 | What hosts were compromised? | `as-pc2, as-srv` |
-
-</details>
-
----
-
-## 🔬 How I Solved It
-
-### Starting Point — Follow the Alert
-
-The only entry point was a Defender alert about `DisableAntiSpyware` being modified. That immediately gave me the device (`as-pc2`) and the user (`david.mitchell`). I built everything outward from there.
-
----
-
-### Mapping Infrastructure in One Pass (Q5–Q8)
-
-One query against `DeviceNetworkEvents` gave me everything at once: both payload domains, both C2 IPs, and the AnyDesk relay. Four questions solved in a single run.
+**Why it matters:** Pre-staged remote access tools persist across incident response efforts if not explicitly hunted and removed. A prior compromise that is closed without auditing all dropped tools leaves a direct path back in.
 
 ```kql
 DeviceNetworkEvents
 | where Timestamp between (datetime(2026-01-27T00:00:00Z) .. datetime(2026-01-27T23:59:00Z))
-| where DeviceName == "as-pc2"
-| project Timestamp, RemoteUrl, RemoteIP, InitiatingProcessFileName
+| where RemoteUrl has "anydesk.com"
+| project Timestamp, DeviceName, RemoteIP, RemoteUrl, InitiatingProcessFileName
 | order by Timestamp asc
 ```
 
 ---
 
-### Finding Every Dropped Tool at Once (Q9, Q19, Q23, Q30, Q33, Q39)
+### Phase 2 — Tooling and C2 Establishment
 
-Filtering `DeviceFileEvents` for newly created executables in suspicious directories surfaced six tools in one query: `wsync.exe`, `scan.exe`, `st.exe`, `updater.exe`, `kill.bat`, and `clean.bat`. Six questions, one query.
+Two tools were deployed shortly after re-entry.
+
+`scan.exe`, a renamed copy of AdvancedIPScanner, was downloaded via `bitsadmin.exe` from `sync.cloud-endpoint.net`. It was executed with the `/portable` flag to write results locally and avoid leaving registry traces. It identified two internal targets at `10.1.0.154` and `10.1.0.183`.
+
+`wsync.exe` was deployed to `C:\ProgramData\` as the primary C2 beacon. The first version failed to establish a reliable connection. The attacker replaced it with a second binary sharing the same filename but a different SHA256 hash. Both communicated with C2 infrastructure proxied through Cloudflare.
+
+| Artifact | SHA256 |
+|----------|--------|
+| scan.exe | `26d5748ffe6bd95e3fee6ce184d388a1a681006dc23a0f08d53c083c593c193b` |
+| wsync.exe (v1) | `66b876c52946f4aed47dd696d790972ff265b6f4451dab54245bc4ef1206d90b` |
+| wsync.exe (v2) | `0072ca0d0adc9a1b2e1625db4409f57fc32b5a09c414786bf08c4d8e6a073654` |
+
+**Why it matters:** Two binaries with the same name and different hashes in a short window confirm tool replacement. This is detectable when file creation events are combined with hash-based alerting on sensitive directories.
 
 ```kql
 DeviceFileEvents
@@ -334,11 +164,40 @@ DeviceFileEvents
 
 ---
 
-### The Hardest Question — Credential Theft via Named Pipe (Q14)
+### Phase 3 — Defense Evasion
 
-This one stopped me for a while. Every search I ran looking for processes connecting TO lsass came back empty. Nothing. The breakthrough came from flipping the question entirely: instead of looking for something connecting to lsass, I searched for a pipe that was **named** lsass.
+Three actions were taken in sequence to remove defensive controls before encryption.
 
-That single change in perspective solved it.
+First, `kill.bat` was downloaded via `bitsadmin.exe` from `sync.cloud-endpoint.net` and executed to impair Windows Defender. Its SHA256 is `0e7da57d92eaa6bda9d0bbc24b5f0827250aa42f295fd056ded50c6e3c3fb96c`.
+
+Second, `reg.exe` set `DisableAntiSpyware` to `1` under `HKLM\SOFTWARE\Policies\Microsoft\Windows Defender` at **21:03:42 UTC**. This is the earliest high-confidence detection opportunity in the entire incident. Defenders had approximately 75 minutes from this moment before encryption began.
+
+Third, `vssadmin delete shadows /all /quiet` was executed to remove all Volume Shadow Copies, preventing file recovery through local backup.
+
+**Why it matters:** All three actions occurred before any ransomware activity. Detection at the registry modification stage alone would have provided a meaningful response window.
+
+```kql
+DeviceRegistryEvents
+| where Timestamp between (datetime(2026-01-27T20:00:00Z) .. datetime(2026-01-27T23:59:00Z))
+| where RegistryValueName == "DisableAntiSpyware"
+| project Timestamp, DeviceName, RegistryKey, RegistryValueName, RegistryValueData
+```
+
+```kql
+DeviceProcessEvents
+| where ProcessCommandLine has "vssadmin" and ProcessCommandLine has "delete shadows"
+| project Timestamp, DeviceName, ProcessCommandLine
+```
+
+---
+
+### Phase 4 — Credential Theft
+
+The attacker confirmed LSASS was running at 21:11 UTC using `tasklist | findstr lsass`. At 21:42 UTC, the named pipe `\Device\NamedPipe\lsass` was accessed, indicating credential extraction from the LSASS process.
+
+The credentials stolen here were used minutes later to authenticate to `as-srv` as `as.srv.administrator`.
+
+**Why it matters:** This step was the bridge between the workstation compromise and the server compromise. Without the stolen credentials, lateral movement to a privileged system would not have been possible.
 
 ```kql
 DeviceEvents
@@ -351,31 +210,23 @@ DeviceEvents
 | order by Timestamp asc
 ```
 
-> **Lesson learned:** when you are stuck, question the framing, not just the query. The angle matters as much as the syntax.
+> **Investigative note:** Queries targeting processes connecting TO lsass returned no results. The correct approach was searching for a named pipe called lsass rather than connections directed at the process itself.
 
 ---
 
-### The Sneakiest Infrastructure Question (Q6)
+### Phase 5 — Lateral Movement and Exfiltration
 
-`cdn.cloud-endpoint.net` returned zero results every time I searched `as-pc2`. I thought I had the wrong domain. I ran the same query five different ways and got nothing.
+Using credentials stolen from the LSASS dump, the account `as.srv.administrator` authenticated to `as-srv` from `10.0.8.9` via network and remote interactive logon. This pivoted the attacker from a workstation to a domain server.
 
-The fix was going completely broad — search every table, every device, all at once.
+SMB enumeration of `10.1.0.154` and `10.1.0.183` followed.
 
-```kql
-search in (DeviceProcessEvents, DeviceFileEvents, DeviceNetworkEvents,
-           DeviceEvents, DeviceImageLoadEvents, DeviceRegistryEvents) 'cdn.cloud-endpoint'
-| where Timestamp between (datetime(2026-01-27T00:00:00Z) .. datetime(2026-01-27T23:59:00Z))
-| project Timestamp, $table, DeviceName, FileName, ProcessCommandLine, RemoteUrl
-| order by Timestamp asc
-```
+`st.exe` was then used to compress sensitive data into `exfil_data.zip`, staged in `C:\Users\Public\` for exfiltration over the active C2 channel.
 
-The domain only existed in `DeviceNetworkEvents` on `as-srv`. It was never on `as-pc2` at all. Never assume the first device tells the whole story.
+| Artifact | SHA256 |
+|----------|--------|
+| st.exe | `512a1f4ed9f512572608c729a2b89f44ea66a40433073aedcd914bd2d33b7015` |
 
----
-
-### Lateral Movement (Q27)
-
-Once I had the stolen credentials, I switched my query scope to `as-srv` and ran `DeviceLogonEvents`. The account `as.srv.administrator` showed up immediately, logging in from `10.0.8.9` using the credentials pulled from the LSASS dump.
+**Why it matters:** Exfiltration before encryption is standard Akira tradecraft. The group uses stolen data as leverage in double extortion: pay the ransom, or the data gets published. The encryption itself is only one half of the impact.
 
 ```kql
 DeviceLogonEvents
@@ -387,9 +238,26 @@ DeviceLogonEvents
 
 ---
 
-### Confirming Scope the Right Way (Q40)
+### Phase 6 — Ransomware Deployment and Cleanup
 
-The ransomware binary was deleted. Searching for it would have given me the wrong answer. Instead I searched for the ransom note drop across all devices. Only `as-pc2` and `as-srv` had it. Those are the confirmed compromised hosts.
+`updater.exe` was staged on `as-srv` by `powershell.exe` at 22:15 UTC, downloaded from `cdn.cloud-endpoint.net`. The binary was disguised as a Windows Update process.
+
+At **22:18:33 UTC**, `updater.exe` dropped `akira_readme.txt`, marking the start of file encryption. All encrypted files received the `.akira` extension. The ransom note directed the victim to a TOR negotiation address and included a unique company ID.
+
+Two minutes after encryption began, `clean.bat` executed and deleted `updater.exe` from the host.
+
+| Artifact | SHA256 |
+|----------|--------|
+| updater.exe | `e609d070ee9f76934d73353be4ef7ff34b3ecc3a2d1e5d052140ed4cb9e4752b` |
+
+| Ransom Detail | Value |
+|---------------|-------|
+| Group | Akira |
+| File Extension | `.akira` |
+| TOR Address | `akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad.onion` |
+| Victim ID | `813R-QWJM-XKIJ` |
+
+**Why it matters:** Deleting the binary after execution removes the primary forensic artifact. Without it, defenders lose the ability to analyze the encryption implementation or identify decryption paths without paying the ransom. Scope confirmation required searching for ransom note drops rather than the binary itself, as the binary was gone.
 
 ```kql
 DeviceFileEvents
@@ -407,58 +275,65 @@ DeviceFileEvents
 |-----------|------|------|
 | `sync.cloud-endpoint.net` | Domain | Initial tool delivery |
 | `cdn.cloud-endpoint.net` | Domain | Ransomware staging |
-| `104.21.30.237` | IP | C2 server (Cloudflare proxied) |
-| `172.67.174.46` | IP | C2 server (Cloudflare proxied) |
+| `104.21.30.237` | IP Address | C2 server (Cloudflare proxied) |
+| `172.67.174.46` | IP Address | C2 server (Cloudflare proxied) |
 | `relay-0b975d23.net.anydesk.com` | Domain | AnyDesk backdoor relay |
-| `88.97.164.155` | IP | Attacker external IP |
+| `88.97.164.155` | IP Address | Attacker external IP |
 | `10.1.0.154` | Internal IP | SMB enumeration target |
 | `10.1.0.183` | Internal IP | SMB enumeration target |
 
----
-
-## 💡 What I Learned
-
-**1. Check your log retention before you write a single query.**
-MDE had nothing. Azure Log Analytics had everything. Knowing your platform saves hours.
-
-**2. When a targeted search fails, go broad.**
-Cross-table searches across all devices cracked Q6, Q8, and Q14 after targeted queries kept returning empty.
-
-**3. Never lock yourself to one device.**
-Q6 was on `as-srv`. Q14 was on `as-pc2`. The story is always spread across hosts.
-
-**4. Change your angle, not just your syntax.**
-Q14 failed until I stopped asking "what connected to lsass" and started asking "what pipe is named lsass." The framing of the question is everything.
-
-**5. Same filename, different hash means a tool was replaced.**
-Two `wsync.exe` files with different SHA256 values confirmed the attacker swapped their C2 beacon mid-operation.
-
-**6. Scope with the ransom note, not the binary.**
-The ransomware binary was deleted. The ransom note was not. Always search for the artifact that cannot be cleaned up.
-
-**7. The real detection window was 21:03:42.**
-That is when `DisableAntiSpyware` was set. Seventy-five minutes before encryption. The ransom note is already too late.
+| File | SHA256 |
+|------|--------|
+| kill.bat | `0e7da57d92eaa6bda9d0bbc24b5f0827250aa42f295fd056ded50c6e3c3fb96c` |
+| wsync.exe (v1) | `66b876c52946f4aed47dd696d790972ff265b6f4451dab54245bc4ef1206d90b` |
+| wsync.exe (v2) | `0072ca0d0adc9a1b2e1625db4409f57fc32b5a09c414786bf08c4d8e6a073654` |
+| scan.exe | `26d5748ffe6bd95e3fee6ce184d388a1a681006dc23a0f08d53c083c593c193b` |
+| st.exe | `512a1f4ed9f512572608c729a2b89f44ea66a40433073aedcd914bd2d33b7015` |
+| updater.exe | `e609d070ee9f76934d73353be4ef7ff34b3ecc3a2d1e5d052140ed4cb9e4752b` |
 
 ---
 
-## 🛠️ Tools & Platform
+## 🚨 Detection Gaps & Recommendations
 
-- **Microsoft Sentinel** — SIEM platform
-- **Azure Log Analytics** — Primary investigation platform (LAW-Cyber-Range workspace)
-- **KQL (Kusto Query Language)** — All queries written and executed in KQL
-- **MDE Telemetry** — DeviceProcessEvents, DeviceFileEvents, DeviceNetworkEvents, DeviceRegistryEvents, DeviceEvents, DeviceLogonEvents
-- **MITRE ATT&CK** — Framework used for technique mapping throughout
+### Observed Gaps
+
+- Log retention was insufficient. MDE Advanced Hunting retains 30 days of data. This incident was 47 days old. Azure Log Analytics retained the telemetry, but the gap was not known at investigation start.
+- AnyDesk was not removed after the prior compromise. It remained active and provided immediate re-entry with no new exploit required.
+- No alerts fired on `bitsadmin.exe` downloading tools from external domains.
+- The `DisableAntiSpyware` registry modification at 21:03:42 UTC generated no real-time alert despite being the clearest pre-encryption signal in the timeline.
+- Shadow copy deletion went undetected.
+
+### Recommendations
+
+- Extend endpoint telemetry retention to a minimum of 90 days. Log Analytics should be configured as the primary retention platform.
+- After any incident, audit all user-writable directories for unapproved remote access tools and staged executables before closing the case.
+- Create detection rules for `bitsadmin.exe` and `Invoke-WebRequest` downloading from external domains to user-writable paths.
+- Alert on any modification to Windows Defender registry keys. Treat `DisableAntiSpyware` being set to `1` as a critical-priority indicator.
+- Alert on `vssadmin delete shadows` without exception. There is no legitimate use for this command in most environments.
+- Restrict privileged account logons to approved Privileged Access Workstations to limit the impact of credential theft.
 
 ---
 
-## 🙏 Credits
+## 🧾 Final Assessment
 
-- **SancLogic** — [sanclogic.com](https://sanclogic.com) — Cyber range platform and challenge design
-- **The Buyer** — Part of the SancLogic Security Operations Centre Cyber Range series
+This was a disciplined, well-structured double extortion ransomware operation. The attacker used pre-staged access to avoid re-compromise, replaced a failing C2 tool mid-operation, exfiltrated data before encrypting, and cleaned up the ransomware binary after execution. Every phase showed preparation.
+
+The earliest viable detection point was **21:03:42 UTC** when `DisableAntiSpyware` was set in the registry. At that moment, defenders had approximately 75 minutes before encryption began. No alert fired.
+
+All attacker tooling used native Windows utilities or renamed legitimate software. `bitsadmin`, `reg.exe`, `vssadmin`, and `AnyDesk` are not inherently malicious. Detection in this environment required behavioral context — not just file or process names — and that context was not being monitored.
+
+The full attack chain was reconstructed from initial access through anti-forensics using only Azure Log Analytics telemetry. Both compromised hosts were confirmed. All attacker infrastructure was identified.
 
 ---
 
-<p align="center">
-  <em>40 questions &nbsp;✦&nbsp; 12 sections &nbsp;✦&nbsp; Complete Akira ransomware incident response</em><br/>
-  <strong>Destiny Furlong &nbsp;✦&nbsp; March 2026</strong>
-</p>
+## 📎 Analyst Notes
+
+- All findings derived from Azure Log Analytics. MDE Advanced Hunting had no data due to 30-day retention limit.
+- Scope was confirmed using ransom note drops, not ransomware binary presence. The binary was deleted. The note was not.
+- The named pipe access (LSASS credential theft) required searching for a pipe named lsass rather than processes connecting to the lsass process. Standard approaches returned no results.
+- `cdn.cloud-endpoint.net` only appeared in `DeviceNetworkEvents` on `as-srv`. Cross-table, cross-device search was required to surface it.
+- Two `wsync.exe` files with different SHA256 hashes confirmed C2 beacon replacement mid-operation.
+- Techniques mapped to MITRE ATT&CK throughout. All KQL queries are documented inline and reproducible against the original dataset.
+- Platform: SancLogic Cyber Range | [sanclogic.com](https://sanclogic.com)
+
+---
